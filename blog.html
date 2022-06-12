@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="no image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & online programes 2022</h1>
+    </section>
+    <!-- ----------blog page---------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="img/certificate.jpg" alt="">
+                <h2>Our certificate & online Programs for 2022</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur voluptate animi praesentium accusantium aperiam voluptas nemo ullam sequi, quas laboriosam debitis id ut est harum expedita iusto omnis ratione?</p>
+            <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum in, temporibus maiores facere consequatur id eos optio repudiandae tempora, nemo atque veniam esse quisquam placeat dolorem maxime repellendus officiis iusto.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dicta autem tempore totam libero sunt excepturi illo, cumque ipsum itaque ad officia hic?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi doloremque nobis totam omnis tempore est accusamus exercitationem quam! Quidem, voluptates.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="Email" placeholder="Enter E-mail">
+                        <textarea rows="5" placeholder="your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            
+            </div>
+            <div class="blog-right">
+               <h3>Post categories</h3>
+               <div>
+                   <span>Business Analysitics</span>
+                   <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------ footer---------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel cumque voluptatem quasi nemo veniam! <br> Saepe dolorem cumque excepturi iste!</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div> 
+        <p>Made with <i class="fa fa-heart"></i> by Deepak Negi</p>
+    </section>
+    <!-- -------------------------------javascript for toggle Menu-------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.width = "200px";
+        }
+        function hideMenu() {
+            navLinks.style.width = "0px";
+        }
+    </script>
+</body>
+
+</html>
